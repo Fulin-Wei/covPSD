@@ -1,0 +1,13 @@
+s=af1522(1000:8000);
+subplot(411);plot(s);title('原始信号');
+Xlabel('时间');Ylabel('幅值');
+[ca1,cd1]=dwt(s,'db5');
+subplot(4,2,3);plot(ca1);title('第一层分解低频信号');
+Xlabel('时间');Ylabel('幅值');
+subplot(4,2,4);plot(cd1);title('第一层分解高频信号');
+Xlabel('时间');Ylabel('幅值');
+[ca2,cd2]=dwt(s,'haar');
+subplot(4,2,5);plot(ca2);title('第一层分解低频信号');
+Xlabel('时间');Ylabel('幅值');
+subplot(4,2,6);plot(cd2);title('第一层分解高频信号');
+Xlabel('时间');Ylabel('幅值');

@@ -1,0 +1,7 @@
+说明：代码来源
+https://www.onlinedown.net/soft/1161360.html
+
+给定的原始数据
+AF1511.DAT，AF1512.DAT， af1522.DAT，等都是一维数据
+
+af152.DAT是二维数组？行列数不一致
